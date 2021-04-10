@@ -1,0 +1,94 @@
+.flappy-bird {
+    width: 640px;
+    height: 360px;
+    background-color: #56BCFC;
+    border: 2px solid #3D7CB6;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.passaro {
+    width: 26px;
+    height: 19px;
+    position: absolute;
+    left: 37%;
+    top: 42%;
+    z-index: 1;
+    transform: rotate(0deg);
+}
+
+.tubo1 {
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(266deg, #B1E156, #7fa03d);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.tubo2 {
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(266deg, #B1E156, #7fa03d);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.tubo3 {
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(266deg, #B1E156, #7fa03d);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.tubo4 {
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(266deg, #B1E156, #7fa03d);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.abertura-superior, .abertura-inferior {
+    width: 110%;
+    height: 20px;
+    background: linear-gradient(266deg, #B1E156, #7fa03d);
+    border: 1px solid black;
+}
+
+.abertura-superior {
+    position: relative;
+    top: 0px;
+}
+
+.passagem {
+    width: 100%;
+    height: 80px;
+    background-color: #56BCFC;
+    border-left: 1px solid #56BCFC;
+    border-right: 1px solid #56BCFC;
+}
+
+span {
+    font-size: 2.4em;
+    position: absolute;
+    right: 29px;
+    top: 88px;
+}
